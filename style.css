@@ -473,3 +473,28 @@ main{
 
 
 }
+#contact .contact-row .contact-left .icon-box:hover .icon i{
+    background-color: var(--themeColor);
+    color: var(--bgColor);
+}
+@media only screen and (max-width: 800px){
+    #contact{
+        padding: 10px;
+    }
+    #contact .contact-row{
+        flex-direction: column;
+        gap: 10px;
+        
+    }
+}
+@media only screen and (max-width: 800px){
+    #info{
+        padding: 50px;
+    }
+    #info .resume-row{
+        flex-direction: column;
+        gap: 10px;
+        
+    }
+}
+
